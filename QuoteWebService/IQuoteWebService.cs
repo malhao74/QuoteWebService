@@ -6,8 +6,11 @@ using System.ServiceModel;
 using System.ServiceModel.Web;
 using System.Text;
 
-namespace QuoteWebService
+namespace WebService
 {
+    /// <summary>
+    /// Defines the interface that is implemented by the web service
+    /// </summary>
     [ServiceContract]
     public interface IQuoteWebService
     {
@@ -20,7 +23,7 @@ namespace QuoteWebService
         */
 
         [OperationContract]
-        string GetQuote();
+        string RandomQuote();
     }
 
     /*

@@ -5,9 +5,12 @@ using System.Web;
 using System.Net;
 using Newtonsoft.Json;
 using System.IO;
-namespace QuoteWebService
+namespace WebService
 {
-    public class DataLayerQuotesDaddy
+    /// <summary>
+    /// This class fetches a random quote from Quotes daddy API
+    /// </summary>
+    internal static class DataLayerQuotesDaddy
     {
         public static string Get()
         {

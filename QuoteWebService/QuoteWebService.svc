@@ -1,1 +1,1 @@
-﻿<%@ ServiceHost Language="C#" Debug="true" Service="QuoteWebService.QuoteWebService" CodeBehind="QuoteWebService.svc.cs" %>
+﻿<%@ ServiceHost Language="C#" Debug="true" Service="WebService.QuoteWebService" CodeBehind="QuoteWebService.svc.cs" %>
